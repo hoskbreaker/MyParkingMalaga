@@ -92,27 +92,15 @@ html, body {
 		out.println("map: map,");
 	    //out.println("title: '"+result.getProperty("nombre")+": "+result.getProperty("libres")+"'");
 	     out.println("});");
-	     %>
-	     
-	     var poliline = new google.maps.Polyline({
-	          path: marker[i].position,
-	          geodesic: true,
-	          strokeColor: '#FF0000',
-	          strokeOpacity: 1.0,
-	          strokeWeight: 2
-	        });
-
-	        poliline.setMap(map);
-		<%
 	     i++;
 		}
 	      %>
-   }
+
 }
     </script>
 
 	<script async defer
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYMrQUTfCjEwfrxJlZcSAj9qmqLQnm3J8&callback=initMap">
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcpSamqT9xA60vAKvDLLLAxZWseBEdwxE&callback=initMap">
     </script>
 
 </body>
